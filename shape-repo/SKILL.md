@@ -1,6 +1,6 @@
 ---
 name: shape-repo
-description: Use when creating a new repo, or auditing, restructuring, or setting up an existing one for agentic development, including tooling, CI/CD, and caching.
+description: Use when creating a repo or auditing one for agentic development, tooling, CI/CD, and caching.
 argument-hint: "[new|audit] [stack or goal]"
 ---
 
@@ -23,7 +23,7 @@ Done when the chosen changes are merged or open as PRs, and `check` passes from 
 
 - One `check` command runs format, lint, typecheck, and tests. It is fast enough to run after every change, deterministic, and points failures at `file:line`. Narrower commands run one test or one package.
 - Pinned toolchain and lockfiles. A clean clone sets up with one command. `.env.example` lists every variable.
-- A short `AGENTS.md`, with `CLAUDE.md` linked to it, holding the commands, only the conventions the code can't show, and where ADRs live so agents read them before changing that area.
+- A short `AGENTS.md`, with `CLAUDE.md` linked to it, holding the commands, only the conventions the code can't show, and where ADRs and the glossary (`CONTEXT.md`) live so agents read them before changing that area.
 - Code grouped by feature, tests beside the code, small modules with clear interfaces. Generated code is marked and kept out of edits.
 - Strict types and lint rules as guardrails, set to error.
 - Conventional, well-documented frameworks that models know well. Explicit code over magic.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Code"
+  short_description: "Review changes for bugs, spec, standards"
+  default_prompt: "Review the changes on this branch."

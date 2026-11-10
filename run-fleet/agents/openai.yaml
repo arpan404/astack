@@ -1,0 +1,4 @@
+interface:
+  display_name: "Run Fleet"
+  short_description: "Split work across parallel child agents"
+  default_prompt: "Fix all open issues with a fleet of agents."

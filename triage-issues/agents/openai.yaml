@@ -1,0 +1,4 @@
+interface:
+  display_name: "Triage Issues"
+  short_description: "Sort and label incoming issues"
+  default_prompt: "Show me what needs triage."

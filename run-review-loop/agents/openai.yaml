@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Loop"
+  short_description: "Cross-provider review until ready"
+  default_prompt: "Have another agent review this PR until it's ready to merge."

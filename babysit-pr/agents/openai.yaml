@@ -1,0 +1,4 @@
+interface:
+  display_name: "Babysit PR"
+  short_description: "Carry a PR through checks and review to merge"
+  default_prompt: "Babysit this PR until it merges."

@@ -15,7 +15,7 @@ Before changing architecture, swapping a dependency, moving a boundary, or recor
 1. **Locate them:** the folder `AGENTS.md` names, else common homes like `docs/adr/`, `docs/decisions/`, or `adr/`. No folder means no recorded decisions.
 2. **Scan titles:** file names carry the topic, so listing the folder is often enough.
 3. **Search contents** for the terms of the area you're touching: module names, technologies, domain words, and their synonyms.
-4. **Read matches in full,** and follow any `Superseded by` chain to the decision that is current.
+4. **Read matches in full,** and follow any `Amended by` or `Superseded by` links to what is current.
 
 ## Act on what you find
 
@@ -42,21 +42,32 @@ Name files `<number>_<snake_case_title>.md`: a sequential number, zero-padded to
 
 ## Format
 
-Default to a title and one paragraph: the context, what was decided, and why.
-
 ```markdown
-# Use Postgres for the write model
+# 004: Use Postgres for the write model
 
-Status: Accepted
-Date: 2026-11-10
+Status: Accepted. Date: 2026-11-10. Decided by: <who>. Supersedes [ADR 002](002_dynamodb_for_orders.md).
 
-Orders need multi-row transactions and the team already runs Postgres. We chose it over DynamoDB, whose single-table design made order edits awkward. Reporting reads from a replica, so analytics load never touches writes.
+## Context
+## Options considered
+## Decision
+## Consequences
+## Tests
 ```
 
-Add a section only when it earns its place: `Alternatives` when a rejected option will be suggested again, `Consequences` when the downstream effects aren't obvious. Write for a reader who has none of this conversation.
+What each part carries:
+
+- **Title:** the number and the decision stated as a rule.
+- **Header line:** status, date, who decided, and links to any ADR it amends or supersedes, naming the specific decisions it changes ("Amends ADR 002, decision 1").
+- **Context:** the prior state and the forces that made this a decision now. Evidence over adjectives: measurements, incidents with dates, hard constraints, and what can't be known.
+- **Options considered:** each real alternative with why it lost, and why the chosen one won. One or two lines each.
+- **Decision:** numbered decisions, each opening with a bold one-line rule followed by its detail. When amending, say what stays unchanged.
+- **Consequences:** what gets easier, what gets harder, what is now required, and the costs accepted knowingly.
+- **Tests:** the tests or checks that pin the decision, so a change that breaks it fails. Omit when there are none.
+
+Length follows the decision: a narrow one needs a few lines per section. Write for a reader who has none of this conversation.
 
 ## Status and change
 
 - `Proposed` while under discussion, `Accepted` once the user agrees.
-- Accepted ADRs are never rewritten. To change course, write a new ADR and set the old one's status to `Superseded by <link>`; that status line is the only edit an old ADR gets.
+- Accepted ADRs are never rewritten. A new ADR either **amends** specific decisions of an old one or **supersedes** it whole. The old ADR's status line gains `Amended by <link>` or `Superseded by <link>`; that is the only edit an old ADR gets.
 - Commit the ADR with the change it governs, so the PR shows both.

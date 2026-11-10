@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test First"
+  short_description: "Build test-first, red then green"
+  default_prompt: "Build this test-first."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Show UI Change"
+  short_description: "Before and after screenshots for approval"
+  default_prompt: "Show me this UI change."

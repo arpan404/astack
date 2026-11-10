@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prototype"
+  short_description: "Throwaway code to answer a question"
+  default_prompt: "Prototype this to answer the question."

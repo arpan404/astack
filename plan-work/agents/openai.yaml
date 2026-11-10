@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Work"
+  short_description: "Split a spec into linked tickets"
+  default_prompt: "Break this spec into tickets."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clarify"
+  short_description: "Ask only the questions that matter"
+  default_prompt: "Interview me on this plan."

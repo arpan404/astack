@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Area"
+  short_description: "Read-only audit with ranked findings"
+  default_prompt: "Audit this area without changing anything."
