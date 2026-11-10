@@ -30,14 +30,14 @@ The shape scales with the change. A small PR is a short paragraph and a few bull
 - **Bullets:** up to 5, one line each, covering what the diff doesn't make obvious: decisions, tradeoffs, anything a reviewer would question.
 - **Verification:** only behavioural evidence, such as a bug reproduced then fixed, a targeted test for the changed behaviour, or a manual scenario and its observed result. When there is none, leave it out; CI already reports tests, lint, and typecheck.
 - **Risks:** migrations, breaking changes, new config, rollout steps. Only when real.
-- **Images:** visual changes need before and after images. Read [`references/images.md`](references/images.md) before capturing or uploading them.
+- **Images:** visual changes need before and after images: read [`references/images.md`](references/images.md).
 - Link issues with the host's closing keyword (`Closes #N`), or a plain reference when the PR only touches them.
 
 A repo template overrides this shape: keep its headings and checklists and fill them with specifics. Longer material (benchmarks, design notes) goes in a collapsed `<details>` block at the end.
 
 Write about the change itself, never about how the PR was produced. Describe the net change, not attempts that were later undone. Use repo-relative paths. When rewriting an existing body, keep images and anything the author wrote by hand. The body carries no attribution lines or tool footers.
 
-[`references/examples.md`](references/examples.md) shows the target length and tone next to a weak PR.
+[`references/examples.md`](references/examples.md) shows the target length and tone.
 
 ## Mechanics
 
