@@ -1,0 +1,4 @@
+interface:
+  display_name: "Record Decision"
+  short_description: "Write or supersede an ADR"
+  default_prompt: "Record this decision as an ADR."
