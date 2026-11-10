@@ -1,0 +1,4 @@
+interface:
+  display_name: "Diagnose"
+  short_description: "Find the root cause of a hard bug"
+  default_prompt: "Diagnose this bug."

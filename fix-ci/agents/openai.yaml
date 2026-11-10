@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fix CI"
+  short_description: "Find and fix a failing pipeline"
+  default_prompt: "Fix the failing CI on this branch."

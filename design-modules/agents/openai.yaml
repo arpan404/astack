@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Modules"
+  short_description: "Design deep modules and seams"
+  default_prompt: "Find modules in this codebase worth deepening."

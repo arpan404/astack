@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write Spec"
+  short_description: "Turn a discussion into a spec"
+  default_prompt: "Write a spec for what we just discussed."
