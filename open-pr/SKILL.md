@@ -30,6 +30,7 @@ The shape scales with the change. A small PR is a short paragraph and a few bull
 - **Bullets:** up to 5, one line each, covering what the diff doesn't make obvious: decisions, tradeoffs, anything a reviewer would question.
 - **Verification:** only behavioural evidence, such as a bug reproduced then fixed, a targeted test for the changed behaviour, or a manual scenario and its observed result. When there is none, leave it out; CI already reports tests, lint, and typecheck.
 - **Risks:** migrations, breaking changes, new config, rollout steps. Only when real.
+- **Images:** visual changes need before and after images. Read [`references/images.md`](references/images.md) before capturing or uploading them.
 - Link issues with the host's closing keyword (`Closes #N`), or a plain reference when the PR only touches them.
 
 A repo template overrides this shape: keep its headings and checklists and fill them with specifics. Longer material (benchmarks, design notes) goes in a collapsed `<details>` block at the end.
@@ -41,6 +42,6 @@ Write about the change itself, never about how the PR was produced. Describe the
 ## Mechanics
 
 - Pass the body from a file so newlines render.
-- Open as a draft when checks fail or the work is unfinished.
+- Open as a draft when checks fail, the work is unfinished, or images are still pending.
 - Asking for a PR authorizes pushing its branch. Push to the default branch or force-push only when the user asks; rewrite pushed history with `--force-with-lease`.
 - Finish by reporting the PR URL.

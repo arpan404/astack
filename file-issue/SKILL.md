@@ -24,7 +24,7 @@ One problem per issue. Keep it short: a 1 or 2 sentence summary, then only what 
 
 By type:
 
-- **Bug:** steps to reproduce, expected vs actual with the exact error in a code block, environment and commit, impact. Point at the suspected cause with `file:line`, marked `Suspected:`.
+- **Bug:** steps to reproduce, expected vs actual with the exact error in a code block, environment and commit, impact. Point at the suspected cause with `file:line`, marked `Suspected:`. A visual bug needs a screenshot of the broken state: read [`references/images.md`](references/images.md) before capturing or uploading it.
 - **Feature:** the problem and who has it, before the proposal. Alternatives considered. Acceptance criteria as a checklist of observable outcomes.
 - **Task:** the goal and why now, what is in and out of scope, and a done-when checklist.
 
