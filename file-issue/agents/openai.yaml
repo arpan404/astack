@@ -1,0 +1,4 @@
+interface:
+  display_name: "File Issue"
+  short_description: "Draft and file an issue"
+  default_prompt: "Draft an issue for this."
