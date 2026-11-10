@@ -1,0 +1,4 @@
+interface:
+  display_name: "Open PR"
+  short_description: "Open or update a pull or merge request"
+  default_prompt: "Open a pull request for this branch."
