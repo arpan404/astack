@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shape Repo"
+  short_description: "Set up a repo for agentic development"
+  default_prompt: "Audit this repo for agentic development and propose changes."
