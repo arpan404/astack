@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design UI"
+  short_description: "Native, polished UI on web, iOS, and Android"
+  default_prompt: "Design this screen."

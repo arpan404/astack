@@ -1,4 +1,0 @@
-interface:
-  display_name: "Polish UI"
-  short_description: "Critique and fix UI before showing it"
-  default_prompt: "Polish this UI."
