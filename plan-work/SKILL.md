@@ -1,7 +1,9 @@
 ---
 name: plan-work
 description: Use when breaking a spec, plan, or large change into issues or tickets.
-argument-hint: "[spec or issue]"
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Planning work

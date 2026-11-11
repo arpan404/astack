@@ -1,7 +1,9 @@
 ---
 name: review-code
 description: Use when reviewing a branch, PR, or uncommitted changes.
-argument-hint: "[base ref or PR]"
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Review

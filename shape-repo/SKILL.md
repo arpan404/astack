@@ -1,7 +1,9 @@
 ---
 name: shape-repo
 description: Use when creating a repo or auditing one for agentic development, tooling, CI/CD, and caching.
-argument-hint: "[new|audit] [stack or goal]"
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Repo setup

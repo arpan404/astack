@@ -1,7 +1,9 @@
 ---
 name: write-spec
 description: Use when turning a discussion, idea, or request into a spec before building it.
-argument-hint: "[feature or issue]"
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Specs

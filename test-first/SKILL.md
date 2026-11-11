@@ -1,6 +1,9 @@
 ---
 name: test-first
 description: Use when building a feature or fixing a bug test-first (TDD, red-green).
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Test first

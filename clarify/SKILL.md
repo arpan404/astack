@@ -1,6 +1,9 @@
 ---
 name: clarify
 description: Use when a request is ambiguous, a choice is costly to get wrong, or the user asks to be questioned on a plan.
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Clarify

@@ -1,6 +1,9 @@
 ---
 name: diagnose
 description: Use when debugging a hard bug, flaky failure, or performance regression.
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Diagnose

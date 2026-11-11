@@ -1,7 +1,9 @@
 ---
 name: fix-ci
 description: Use when a CI pipeline, check, or deploy job is failing.
-argument-hint: "[run, job, or PR]"
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Fixing CI

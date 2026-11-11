@@ -1,7 +1,9 @@
 ---
 name: file-issue
 description: Use when filing, drafting, or rewriting an issue, including bug reports, feature requests, and tasks.
-argument-hint: "[bug|feature|task] [what happened or what is needed]"
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Issues

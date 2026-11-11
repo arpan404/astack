@@ -1,6 +1,9 @@
 ---
 name: design-ui
 description: Use when designing, building, reviewing, or polishing UI and UX on any platform, including web, iOS, Android, and cross-platform apps.
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Design UI

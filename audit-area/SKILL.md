@@ -1,7 +1,9 @@
 ---
 name: audit-area
 description: Use when asked to audit a feature, page, module, or whole app without changing it.
-argument-hint: "[area]"
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Audit

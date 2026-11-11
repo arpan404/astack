@@ -1,6 +1,9 @@
 ---
 name: prototype
 description: Use when building throwaway code to answer a design or UI question.
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Prototype

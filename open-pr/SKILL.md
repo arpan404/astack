@@ -1,7 +1,9 @@
 ---
 name: open-pr
 description: Use when opening, updating, or rewriting the description of a pull request or merge request.
-argument-hint: "[base-branch]"
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Pull requests
