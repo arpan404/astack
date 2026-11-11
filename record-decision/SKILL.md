@@ -1,7 +1,9 @@
 ---
 name: record-decision
 description: Use when making, changing, or checking for architecture decisions (ADRs).
-argument-hint: "[decision]"
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Decisions

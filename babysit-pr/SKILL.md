@@ -1,7 +1,9 @@
 ---
 name: babysit-pr
 description: Use when watching a PR through checks, review, and conflicts until it merges.
-argument-hint: "[PR]"
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Babysit a PR

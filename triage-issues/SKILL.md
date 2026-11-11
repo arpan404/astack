@@ -1,7 +1,9 @@
 ---
 name: triage-issues
 description: Use when triaging, labelling, or sorting incoming issues or external PRs.
-argument-hint: "[issue, PR, or 'what needs attention']"
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Triage

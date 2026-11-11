@@ -1,6 +1,9 @@
 ---
 name: unslop
 description: Use for any prose a person will read, including replies, docs, PRs, issues, commit messages, and code comments.
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Unslop

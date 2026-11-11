@@ -1,6 +1,9 @@
 ---
 name: write-commit
 description: Use when committing changes or writing a commit message.
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Commits

@@ -1,6 +1,9 @@
 ---
 name: design-modules
 description: Use when designing module interfaces and seams, or finding code to deepen.
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Module design

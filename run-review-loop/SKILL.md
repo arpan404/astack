@@ -1,7 +1,9 @@
 ---
 name: run-review-loop
 description: Use when work should be reviewed by another agent and fixed until it's ready to merge.
-argument-hint: "[PR or branch]"
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Review loop

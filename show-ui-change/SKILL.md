@@ -1,6 +1,9 @@
 ---
 name: show-ui-change
 description: Use when a UI change needs to be seen in the running app, with before and after screenshots for approval.
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Show a UI change

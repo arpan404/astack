@@ -1,7 +1,9 @@
 ---
 name: run-fleet
 description: Use when splitting a batch of work, like many issues or a large plan, across parallel child agents.
-argument-hint: "[issues, plan, or scope]"
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Run a fleet

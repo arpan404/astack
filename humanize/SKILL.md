@@ -1,7 +1,9 @@
 ---
 name: humanize
 description: Use when the user asks to rewrite, humanize, or de-AI text they provide so it reads as written by a person.
-argument-hint: "[text or file]"
+metadata:
+  author: arpan404
+  version: "1.0.0"
 ---
 
 # Humanize
