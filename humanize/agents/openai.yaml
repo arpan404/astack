@@ -1,0 +1,4 @@
+interface:
+  display_name: "Humanize"
+  short_description: "Rewrite text so it reads like a person wrote it"
+  default_prompt: "Humanize this text."
