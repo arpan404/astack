@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unslop"
+  short_description: "Clear, human writing with no AI tells"
+  default_prompt: "Rewrite this in plain words."
